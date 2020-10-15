@@ -63,3 +63,7 @@ body {
 .btn-background:hover {
 	background-color: darkgreen;
 }
+
+.card-height {
+	height: 100px;
+}
