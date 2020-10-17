@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Favorite Series</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.css">
+
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md bg-light navbar-light">
+        <a class="navbar-brand" href="/">Kiirsi Branham </a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/future-projects.html">Future Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/writing-advice.html">Writing Advice</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/favorite-series.html">Favorite Series</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="container">
+
+
+
+
+            <h1 class="lotr-text p-4"> Lord of the Rings</h1>
+            <img class="p-2" src="lotr.jpg" alt: alt="a picture of the fellowship" />
+            <h5 class="lotr-text p-4">
+                One of Kiirsi's favorite series is the Lord of the Rings triology! <br />
+                Explore below for information about the books, movies, and characters!
+            </h5>
+
+
+
+            <div class="row">
+                <div class="col-12 col-lg-6 mt-4">
+                    <div class="card">
+                        <div class="card-header lotr-header">
+                            <h2>The Books</h2>
+                        </div>
+
+                        <div class="card-body">
+
+                            <ul id="bookTitles">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 mt-4">
+                    <div class="card">
+                        <div class="card-header lotr-header">
+                            <h2>The Movies</h2>
+                        </div>
+
+                        <div class="card-body">
+                            <ul id="movieTitles">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12">
+                    <div class="card mt-4">
+                        <div class="card-header lotr-header">
+                            <h2>Character Information</h2>
+                        </div>
+
+                        <div class="card-body m-0 p-0">
+
+                            <table class="table table-sm table-striped" id="characters-table" data-toggle="table">
+                                <thead>
+
+                                    <tr>
+                                        <th data-field="name">Name</th>
+                                        <th data-field="race">Race</th>
+                                        <th data-field="gender"> Gender</th>
+                                        <th data-field="birth"> Date of Birth </th>
+                                        <th data-field="death"> Date of Death</th>
+                                        <th data-field="spouse">Spouse</th>
+
+                                    </tr>
+
+                                </thead>
+                                <tbody id="character-data">
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+        <footer class="page-footer text-center py-3">
+            You can find my git repo <a href="https://github.com/BYU-CS-260-Winter-2020/lab-2-weather-app-ciara12h.git">here</a>
+        </footer>
+    </div>
+
+
+
+    <script src="favorite-series.js"></script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.js"></script>
+
+
+</body>
+
+</html>

@@ -42,10 +42,12 @@ body {
 	height: 400px;
 }
 
+
 .homepage-foreground {
 	color: white;
 	text-align: center;
 }
+
 
 .card-header {
 	background-color: darkgreen;
@@ -67,3 +69,14 @@ body {
 .card-height {
 	height: 100px;
 }
+
+.lotr-text {
+	background-color: goldenrod;
+	color: darkgreen;
+	text-align: center;
+}
+
+.lotr-header {
+	color: goldenrod;
+}
+
